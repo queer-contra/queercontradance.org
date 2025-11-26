@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+.jumboback {
+    /*background-image: url('../images/image0.jpg');*/
+    background-size: cover;
+    min-height: 50px;
+    margin-bottom:0px;
+    background-position: 50%;
+    background-color:#E3E4FA;
+    color: black;;
+    /*text-shadow: black 2em 2em 2em;*/
+    /*padding-left: 200px;*/
+}
+
+
+.container-fluid {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+asection_div_img {
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.anchor-container {
+    padding-top: 20px;
+}
+
+.topspacer {
+    padding-top: 70px;
+}
+
+:target:before {
+    content:"";
+    display:block;
+    height:80px; /* fixed header height*/
+    margin:-80px 0 0; /* negative fixed header height */
+}
+
+
+/* logos on the navbar */
+.cl-navbar-logo {
+    width: 3em;
+    height: 3em;
+}
+
+.navbar-custom {
+    background-color: #1E90FF !important;
+    color: #FFFFFF !important;
+}
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /*padding-bottom: 56.25%;*/
+}
+
+.iframe-container iframe {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    border: 0;
+}
+
+.bio-photo {
+    width: 10rem;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+}
