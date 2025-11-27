@@ -92,3 +92,55 @@
     margin-bottom: .0rem;
 }
 
+.staff-member {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.staff-image {
+    max-width: 400px;
+}
+
+.staff-member:last-child {
+  border-bottom: none;
+}
+
+.hide-on-mobile {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .staff-member {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    border-bottom: none;
+  }
+
+  .staff-member.image-right {
+    flex-direction: row-reverse;
+  }
+
+  .staff-image {
+    flex: 0 0 auto;
+  }
+
+  .staff-content {
+    flex: 1;
+  }
+
+  .hide-on-mobile {
+    display: block;
+  }
+
+  .hide-link-on-desktop {
+    pointer-events: none;
+    color: inherit;
+    text-decoration: none;
+    cursor: default;
+  }
+}
