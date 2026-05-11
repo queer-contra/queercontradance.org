@@ -11,6 +11,17 @@
     text-shadow: black 2em 2em 2em;
 }
 
+.jumboback-nwqcc {
+  background-image: url('../images/nwqcc2026/whole_hall.jpg');
+  background-size: cover;
+  min-height: 600px;
+  margin-bottom:0px;
+  background-position: center 60%;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+}
+
 .container-fluid {
     background-color:#D5F5E3;
     padding-left: 5%;
