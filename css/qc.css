@@ -115,6 +115,11 @@
 .staff-image {
     max-width: 400px;
 }
+.staff-image-nwqcc {
+  max-width: 400px;
+  max-height: 400px;  
+  object-fit: contain;
+}
 
 .staff-member:last-child {
   border-bottom: none;
@@ -137,6 +142,10 @@
   }
 
   .staff-image {
+    flex: 0 0 auto;
+  }
+
+  .staff-image-nwqcc {
     flex: 0 0 auto;
   }
 
